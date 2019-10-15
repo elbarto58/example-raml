@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "brand": "Yamaha",
+        "model": "945K5",
+        "color": "Silver",
+        "price": 200,
+        "size": "Medium",
+        "marterial": "Metal"
+    },
+    {
+        "id": 2,
+        "brand": "Vandoren",
+        "model": "456F4",
+        "color": "Black",
+        "price": 450,
+        "size": "Large",
+        "marterial": "Aluminium"
+    },
+    {
+        "id": 3,
+        "brand": "Yamaha",
+        "model": "945GO4",
+        "color": "Gold",
+        "price": 350,
+        "size": "Small",
+        "marterial": "Aluminium"
+    },
+    {
+        "id": 4,
+        "brand": "Selmer",
+        "model": "SM342",
+        "color": "Silver",
+        "price": 190,
+        "size": "Medium",
+        "marterial": "Metal"
+    }
+]

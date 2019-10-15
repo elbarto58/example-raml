@@ -1,0 +1,30 @@
+#%RAML 1.0
+title: instruments
+version: v0
+baseUri: http://instruments.com/{title}/{version}
+types:
+  straps:
+    type: array
+    description: Array of entities that show a strap for a saxophone
+    items:
+        properties:
+        id:
+            type: string
+            description: id
+            required: true
+        brand:
+            type: string
+            description: brand
+            required: true
+        color:
+            type: string
+            description: color
+            required: false
+        price:
+            type: string
+            description: price
+            required: false
+        size:
+            type: string
+            description: size
+            required: false

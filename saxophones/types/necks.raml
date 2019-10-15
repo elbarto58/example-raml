@@ -1,0 +1,34 @@
+#%RAML 1.0
+title: instruments
+version: v0
+baseUri: http://instruments.com/{title}/{version}
+types:
+  necks:
+    type: array
+    description: Array of entities that show a necks for a saxophone
+    items:
+        properties:
+        id:
+            type: string
+            description: id
+            required: false
+        brand:
+            type: string
+            description: brand
+            required: false
+        type:
+            type: string
+            description: type
+            required: false
+        model:
+            type: string
+            description: model
+            required: false
+        price:
+            type: number
+            description: price
+            required: false
+        material:
+            type: string
+            description: material
+            required: false

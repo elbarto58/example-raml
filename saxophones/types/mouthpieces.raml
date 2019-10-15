@@ -1,0 +1,27 @@
+#%RAML 1.0
+types:
+  mouthpiece:
+    type: object
+    description: Entity that representa a part of saxophone, the mouthpiece.
+    iteml:
+      properties:
+        id:
+          type: string
+          description: id unique for the mouthpiece
+          required: true
+        brand:
+          type: string
+          description: brans of the mouthpiece
+          required: false
+        price:
+          type: numeric
+          description: price of the mouthpiece
+          required: false
+        size:
+          type: numeric
+          description: size of the mouthpiece
+          required: false
+        material:
+          type: string
+          description: material of the mouthpiece
+          required: false

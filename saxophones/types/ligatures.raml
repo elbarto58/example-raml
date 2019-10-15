@@ -1,0 +1,20 @@
+#%RAML 1.0
+types:
+  ligature:
+    type: object
+    description: Entity that represent a part of saxophone, the ligature.
+    items:
+      properties:
+        id:
+          type: string
+          description: id unique for the ligature
+          required: true
+        brand:
+          type: string
+          description: brans of the ligature
+          required: false
+        price:
+          type: numeric
+          description: price of the ligature
+          required: false
+      

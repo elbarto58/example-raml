@@ -1,0 +1,27 @@
+#%RAML 1.0
+types:
+  reed:
+    type: object
+    description: Entity that represent a part of saxophone, the reed.
+    properties:
+      id:
+        type: string
+        description: id unique for the reed
+        required: true
+      brand:
+        type: string
+        description: brans of the reed
+        required: false
+      price:
+        type: numeric
+        description: price of the reed
+        required: false
+      model:
+        type: string
+        description: model of the reed
+        required: false
+      size:
+        type: numeric
+        description: size of the reed
+        required: false
+      

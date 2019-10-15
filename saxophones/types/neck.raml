@@ -31,3 +31,26 @@ types:
         type: string
         description: material
         required: false
+/neck:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            type: | 
+              [
+                {
+                  "id": 1,
+                  "brand": "Yamaha",
+                  "model": "",
+                  "color": "red",
+                  "material": "wood",
+                  "price": 1000,
+                  "type": "Soprano" 
+                }
+              ]
+            example: # example how a response looks like
+              {
+                "message": "OK",
+                "data" : 
+              }

@@ -1,0 +1,26 @@
+#%RAML 1.0
+types:
+  key:
+    type: object
+    description: Entity that show a key of saxophone
+    properties:
+      id:
+        type: string
+        description: id unique for my key
+        required: false
+      brand:
+        type: string
+        description: trademark of my key
+        required: false
+      price:
+        type: number
+        description: price of my key
+        required: false
+      quantity:
+        type: number
+        description: quantity of keys
+        required: false
+      saxophoneType:
+        type: enum
+        description: type of my saxophone
+        required: false

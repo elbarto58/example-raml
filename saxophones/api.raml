@@ -1,7 +1,32 @@
 #%RAML 1.0
-title: Instruments
+title: instruments
 version: v0
-baseUri: http://instruments.com
-mediaType: application/json
-types:
-  Gist: !include types/saxophone.raml
+baseUri: http://instruments.com/{title}/{version}
+#mediaType: application/json
+
+uses:
+  saxophones: types/saxophones.raml
+
+resourceTypes: 
+  collection: resourceTypes/collection.raml
+
+/saxophones:
+  description: |
+    Use saxophones
+  type: collection
+
+  get:
+    description: |
+      get - List of saxophones
+    queryParameters: 
+      saxophones.id: 
+        description: |
+          saxophone id
+        type: 
+          string
+        example: "1"
+    responses: 
+      200:
+        body:
+          application/json:
+          example: !include examples/saxophones/get_200.json

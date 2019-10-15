@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+          "id": "1",
+          "brand": "Yamaha",
+          "model": "Saxophone-1.0",
+          "color": "Golden",
+          "material": "Plastic",
+          "price": "300",
+          "saxophoneType": "Tenor"
+        },
+        {
+          "id": "2",
+          "brand": "Ruli",
+          "model": "Saxophone-2.1",
+          "color": "Black",
+          "material": "Plastic",
+          "price": "250",
+          "saxophoneType": "Soprano"
+        },
+        {
+          "id": "3",
+          "brand": "Vandoren",
+          "model": "Saxophone-3-1.0",
+          "color": "Golden",
+          "material": "Plastic",
+          "price": "400",
+          "saxophoneType": "Tenor"
+        }
+    ]
+}
